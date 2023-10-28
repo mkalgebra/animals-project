@@ -1,0 +1,17 @@
+@mixin primary-button {
+  cursor: pointer;
+  background-color: rgb(60, 10, 225);
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+@mixin secondary-button {
+  cursor: pointer;
+  background-color: rgb(225, 60, 10);
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
