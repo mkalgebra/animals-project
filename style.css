@@ -140,14 +140,19 @@ body {
   align-items: center;
 }
 #contact-form > input {
-  width: 80%;
+  width: 240px;
   padding: 8px;
   margin-bottom: 12px;
 }
 #contact-form > textarea {
+  width: 240px;
   margin-bottom: 12px;
   padding: 8px;
-  width: 80%;
+}
+#contact-form > select {
+  width: 258px;
+  margin-bottom: 12px;
+  padding: 8px;
 }
 #contact-form > button {
   cursor: pointer;
@@ -173,6 +178,11 @@ body {
     margin-bottom: 12px;
     padding: 8px;
     width: 500px;
+  }
+  #contact-form > select {
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 520px;
   }
   #contact-form > button {
     cursor: pointer;

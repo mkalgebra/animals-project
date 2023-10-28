@@ -23,6 +23,14 @@ function generateContactUs(container) {
   textArea.rows = 12;
   form.append(textArea);
 
+  let select = document.createElement("select");
+  const options = ["Macka", "Pas", "Hrcak"];
+  options.forEach((option) => {
+    select.options.add(new Option(option));
+  });
+  select.required = true;
+  form.append(select);
+
   let submitButton = document.createElement("button");
   submitButton.type = "submit";
   submitButton.innerText = "Send";

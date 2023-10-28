@@ -137,15 +137,21 @@
   align-items: center;
 
   & > input {
-    width: 80%;
+    width: 240px;
     padding: 8px;
     margin-bottom: 12px;
   }
 
   & > textarea {
+    width: 240px;
     margin-bottom: 12px;
     padding: 8px;
-    width: 80%;
+  }
+
+  & > select {
+    width: 258px;
+    margin-bottom: 12px;
+    padding: 8px;
   }
 
   & > button {
@@ -169,6 +175,12 @@
       margin-bottom: 12px;
       padding: 8px;
       width: 500px;
+    }
+
+    & > select {
+      margin-bottom: 12px;
+      padding: 8px;
+      width: 520px;
     }
 
     & > button {
